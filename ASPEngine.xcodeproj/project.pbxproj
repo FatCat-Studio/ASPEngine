@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586BBAE115470CF600332DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BBAE015470CF600332DED /* Foundation.framework */; };
+		586BBAE715470CF600332DED /* ASPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BBAE615470CF600332DED /* ASPEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		586BBADD15470CF600332DED /* libASPEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libASPEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		586BBAE015470CF600332DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		586BBAE415470CF600332DED /* ASPEngine-Prefix.pch */ = {isa = PBXFileReference; path = "ASPEngine-Prefix.pch"; sourceTree = "<group>"; };
+		586BBAE515470CF600332DED /* ASPEngine.h */ = {isa = PBXFileReference; path = ASPEngine.h; sourceTree = "<group>"; };
+		586BBAE615470CF600332DED /* ASPEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASPEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		586BBADA15470CF600332DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586BBAE115470CF600332DED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586BBAD215470CF600332DED = {
+			isa = PBXGroup;
+			children = (
+				586BBAE215470CF600332DED /* ASPEngine */,
+				586BBADF15470CF600332DED /* Frameworks */,
+				586BBADE15470CF600332DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		586BBADE15470CF600332DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				586BBADD15470CF600332DED /* libASPEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		586BBADF15470CF600332DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				586BBAE015470CF600332DED /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		586BBAE215470CF600332DED /* ASPEngine */ = {
+			isa = PBXGroup;
+			children = (
+				586BBAE515470CF600332DED /* ASPEngine.h */,
+				586BBAE615470CF600332DED /* ASPEngine.m */,
+				586BBAE315470CF600332DED /* Supporting Files */,
+			);
+			path = ASPEngine;
+			sourceTree = "<group>";
+		};
+		586BBAE315470CF600332DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				586BBAE415470CF600332DED /* ASPEngine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		586BBADB15470CF600332DED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		586BBADC15470CF600332DED /* ASPEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586BBAEA15470CF600332DED /* Build configuration list for PBXNativeTarget "ASPEngine" */;
+			buildPhases = (
+				586BBAD915470CF600332DED /* Sources */,
+				586BBADA15470CF600332DED /* Frameworks */,
+				586BBADB15470CF600332DED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASPEngine;
+			productName = ASPEngine;
+			productReference = 586BBADD15470CF600332DED /* libASPEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		586BBAD415470CF600332DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "MIPT iLab";
+			};
+			buildConfigurationList = 586BBAD715470CF600332DED /* Build configuration list for PBXProject "ASPEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 586BBAD215470CF600332DED;
+			productRefGroup = 586BBADE15470CF600332DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				586BBADC15470CF600332DED /* ASPEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586BBAD915470CF600332DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586BBAE715470CF600332DED /* ASPEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		586BBAE815470CF600332DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		586BBAE915470CF600332DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		586BBAEB15470CF600332DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ASPEngine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASPEngine/ASPEngine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		586BBAEC15470CF600332DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ASPEngine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASPEngine/ASPEngine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586BBAD715470CF600332DED /* Build configuration list for PBXProject "ASPEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586BBAE815470CF600332DED /* Debug */,
+				586BBAE915470CF600332DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586BBAEA15470CF600332DED /* Build configuration list for PBXNativeTarget "ASPEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586BBAEB15470CF600332DED /* Debug */,
+				586BBAEC15470CF600332DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 586BBAD415470CF600332DED /* Project object */;
+}

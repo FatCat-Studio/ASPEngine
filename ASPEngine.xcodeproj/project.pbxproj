@@ -6,27 +6,18 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		58EDA23C15473CC400595BC8 /* ASPEngine Universal */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 58EDA23D15473CC400595BC8 /* Build configuration list for PBXAggregateTarget "ASPEngine Universal" */;
-			buildPhases = (
-				58EDA24015473CCC00595BC8 /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = "ASPEngine Universal";
-			productName = "ASPEngine Universal";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		58EDA22C15473C4700595BC8 /* ASPGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BBB22154710E300332DED /* ASPGLKViewController.m */; };
-		58EDA22D15473C4A00595BC8 /* ASPGLSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BBB24154710E300332DED /* ASPGLSprite.m */; };
-		58EDA22F15473C5400595BC8 /* ASPEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 586BBB1F154710E300332DED /* ASPEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58EDA23015473C5500595BC8 /* ASPGLKVector2Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 586BBB20154710E300332DED /* ASPGLKVector2Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58EDA23115473C5800595BC8 /* ASPGLSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 586BBB23154710E300332DED /* ASPGLSprite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58EDA23215473C5D00595BC8 /* ASPGLKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 586BBB21154710E300332DED /* ASPGLKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586BBB1515470FFE00332DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BBAE015470CF600332DED /* Foundation.framework */; };
+		586BBB25154710E300332DED /* ASPEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 586BBB1F154710E300332DED /* ASPEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586BBB26154710E300332DED /* ASPGLKVector2Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 586BBB20154710E300332DED /* ASPGLKVector2Extension.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		586BBB27154710E300332DED /* ASPGLKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 586BBB21154710E300332DED /* ASPGLKViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		586BBB28154710E300332DED /* ASPGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BBB22154710E300332DED /* ASPGLKViewController.m */; };
+		586BBB29154710E300332DED /* ASPGLSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 586BBB23154710E300332DED /* ASPGLSprite.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		586BBB2A154710E300332DED /* ASPGLSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BBB24154710E300332DED /* ASPGLSprite.m */; };
+		586BBB2B154710EB00332DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BBAFF15470DE800332DED /* UIKit.framework */; };
+		586BBB2C154710EB00332DED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BBAFD15470DDE00332DED /* QuartzCore.framework */; };
+		586BBB2D154710EB00332DED /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BBAFB15470DD800332DED /* OpenGLES.framework */; };
+		586BBB2E154710EB00332DED /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BBAF915470DD200332DED /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,21 +27,25 @@
 		586BBAFB15470DD800332DED /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		586BBAFD15470DDE00332DED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		586BBAFF15470DE800332DED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		586BBB1415470FFE00332DED /* libASPEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libASPEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		586BBB1F154710E300332DED /* ASPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPEngine.h; sourceTree = "<group>"; };
 		586BBB20154710E300332DED /* ASPGLKVector2Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPGLKVector2Extension.h; sourceTree = "<group>"; };
 		586BBB21154710E300332DED /* ASPGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPGLKViewController.h; sourceTree = "<group>"; };
 		586BBB22154710E300332DED /* ASPGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPGLKViewController.m; sourceTree = "<group>"; };
 		586BBB23154710E300332DED /* ASPGLSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPGLSprite.h; sourceTree = "<group>"; };
 		586BBB24154710E300332DED /* ASPGLSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPGLSprite.m; sourceTree = "<group>"; };
-		58EDA21B15473B4C00595BC8 /* ASPEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASPEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58EDA22415473B4C00595BC8 /* ASPEngine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASPEngine-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58EDA21815473B4C00595BC8 /* Frameworks */ = {
+		586BBB1115470FFE00332DED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586BBB1515470FFE00332DED /* Foundation.framework in Frameworks */,
+				586BBB2B154710EB00332DED /* UIKit.framework in Frameworks */,
+				586BBB2C154710EB00332DED /* QuartzCore.framework in Frameworks */,
+				586BBB2D154710EB00332DED /* OpenGLES.framework in Frameworks */,
+				586BBB2E154710EB00332DED /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +64,7 @@
 		586BBADE15470CF600332DED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58EDA21B15473B4C00595BC8 /* ASPEngine.framework */,
+				586BBB1415470FFE00332DED /* libASPEngine.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				586BBAE415470CF600332DED /* ASPEngine-Prefix.pch */,
-				58EDA22415473B4C00595BC8 /* ASPEngine-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,28 +106,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		58EDA22E15473C4E00595BC8 /* Headers */ = {
+		586BBB1215470FFE00332DED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58EDA22F15473C5400595BC8 /* ASPEngine.h in Headers */,
-				58EDA23015473C5500595BC8 /* ASPGLKVector2Extension.h in Headers */,
-				58EDA23215473C5D00595BC8 /* ASPGLKViewController.h in Headers */,
-				58EDA23115473C5800595BC8 /* ASPGLSprite.h in Headers */,
+				586BBB25154710E300332DED /* ASPEngine.h in Headers */,
+				586BBB26154710E300332DED /* ASPGLKVector2Extension.h in Headers */,
+				586BBB27154710E300332DED /* ASPGLKViewController.h in Headers */,
+				586BBB29154710E300332DED /* ASPGLSprite.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		58EDA21A15473B4C00595BC8 /* ASPEngine */ = {
+		586BBB1315470FFE00332DED /* ASPEngine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58EDA22915473B4C00595BC8 /* Build configuration list for PBXNativeTarget "ASPEngine" */;
+			buildConfigurationList = 586BBB1C15470FFE00332DED /* Build configuration list for PBXNativeTarget "ASPEngine" */;
 			buildPhases = (
-				58EDA21715473B4C00595BC8 /* Sources */,
-				58EDA21815473B4C00595BC8 /* Frameworks */,
-				58EDA21915473B4C00595BC8 /* Resources */,
-				58EDA22E15473C4E00595BC8 /* Headers */,
+				586BBB1015470FFE00332DED /* Sources */,
+				586BBB1115470FFE00332DED /* Frameworks */,
+				586BBB1215470FFE00332DED /* Headers */,
 			);
 			buildRules = (
 			);
@@ -141,8 +134,8 @@
 			);
 			name = ASPEngine;
 			productName = ASPEngine;
-			productReference = 58EDA21B15473B4C00595BC8 /* ASPEngine.framework */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 586BBB1415470FFE00332DED /* libASPEngine.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -165,45 +158,18 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58EDA21A15473B4C00595BC8 /* ASPEngine */,
-				58EDA23C15473CC400595BC8 /* ASPEngine Universal */,
+				586BBB1315470FFE00332DED /* ASPEngine */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		58EDA21915473B4C00595BC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		58EDA24015473CCC00595BC8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=ASPEngine\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		58EDA21715473B4C00595BC8 /* Sources */ = {
+		586BBB1015470FFE00332DED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58EDA22C15473C4700595BC8 /* ASPGLKViewController.m in Sources */,
-				58EDA22D15473C4A00595BC8 /* ASPGLSprite.m in Sources */,
+				586BBB28154710E300332DED /* ASPGLKViewController.m in Sources */,
+				586BBB2A154710E300332DED /* ASPGLSprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,68 +218,27 @@
 			};
 			name = Release;
 		};
-		58EDA22A15473B4C00595BC8 /* Debug */ = {
+		586BBB1D15470FFE00332DED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DEAD_CODE_STRIPPING = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				DSTROOT = /tmp/ASPEngine.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASPEngine/ASPEngine-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "ASPEngine/ASPEngine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				LINK_WITH_STANDARD_LIBRARIES = NO;
-				MACH_O_TYPE = mh_object;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				WRAPPER_EXTENSION = framework;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		58EDA22B15473B4C00595BC8 /* Release */ = {
+		586BBB1E15470FFE00332DED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DEAD_CODE_STRIPPING = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				DSTROOT = /tmp/ASPEngine.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASPEngine/ASPEngine-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "ASPEngine/ASPEngine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				LINK_WITH_STANDARD_LIBRARIES = NO;
-				MACH_O_TYPE = mh_object;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
-		58EDA23E15473CC400595BC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		58EDA23F15473CC400595BC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -329,19 +254,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58EDA22915473B4C00595BC8 /* Build configuration list for PBXNativeTarget "ASPEngine" */ = {
+		586BBB1C15470FFE00332DED /* Build configuration list for PBXNativeTarget "ASPEngine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58EDA22A15473B4C00595BC8 /* Debug */,
-				58EDA22B15473B4C00595BC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		58EDA23D15473CC400595BC8 /* Build configuration list for PBXAggregateTarget "ASPEngine Universal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58EDA23E15473CC400595BC8 /* Debug */,
-				58EDA23F15473CC400595BC8 /* Release */,
+				586BBB1D15470FFE00332DED /* Debug */,
+				586BBB1E15470FFE00332DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

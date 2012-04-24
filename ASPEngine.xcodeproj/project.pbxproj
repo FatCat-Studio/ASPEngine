@@ -84,11 +84,8 @@
 		586BBAE215470CF600332DED /* ASPEngine */ = {
 			isa = PBXGroup;
 			children = (
-				586BBB1F154710E300332DED /* ASPEngine.h */,
-				586BBB20154710E300332DED /* ASPGLKVector2Extension.h */,
-				586BBB21154710E300332DED /* ASPGLKViewController.h */,
+				58EDA2531547411F00595BC8 /* Headers */,
 				586BBB22154710E300332DED /* ASPGLKViewController.m */,
-				586BBB23154710E300332DED /* ASPGLSprite.h */,
 				586BBB24154710E300332DED /* ASPGLSprite.m */,
 				586BBAE315470CF600332DED /* Supporting Files */,
 			);
@@ -101,6 +98,17 @@
 				586BBAE415470CF600332DED /* ASPEngine-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58EDA2531547411F00595BC8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				586BBB1F154710E300332DED /* ASPEngine.h */,
+				586BBB20154710E300332DED /* ASPGLKVector2Extension.h */,
+				586BBB21154710E300332DED /* ASPGLKViewController.h */,
+				586BBB23154710E300332DED /* ASPGLSprite.h */,
+			);
+			name = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +269,7 @@
 				586BBB1E15470FFE00332DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

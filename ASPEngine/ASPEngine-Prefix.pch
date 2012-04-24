@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'ASPEngine' target in the 'ASPEngine' project
-//
-
-#ifdef __OBJC__
-	#import <Foundation/Foundation.h>
-#endif

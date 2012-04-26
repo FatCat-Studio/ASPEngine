@@ -12,6 +12,7 @@
 @interface ASPGLSprite : NSObject
 
 @property (strong,nonatomic) NSString *fileName;
+@property (strong) NSString *name;
 @property (assign) GLKVector2 position;
 @property (nonatomic) CGSize contentSize;
 @property (assign) GLKVector2 velocity;

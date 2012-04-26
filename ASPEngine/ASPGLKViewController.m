@@ -29,7 +29,7 @@
 	GLKMatrix4 projectionMatrix = GLKMatrix4MakeOrtho(0,self.viewIOSize.width, 0, self.viewIOSize.height, -1024, 1024);
 	//GLKMatrix4 projectionMatrix = GLKMatrix4MakePerspective(GLKMathDegreesToRadians(65.0f), self.viewIOSize.height/self.viewIOSize.width, -4.0f, 10.0f);
 	self.effect.transform.projectionMatrix = projectionMatrix;
-	self.sprites=[NSMutableSet setWithCapacity:10];
+	self.sprites=[NSMutableArray arrayWithCapacity:10];
 	self.backgroundColor=GLKVector3Make(0.2, 0.2, 0.2);
 }
 - (void) viewDidLoad{

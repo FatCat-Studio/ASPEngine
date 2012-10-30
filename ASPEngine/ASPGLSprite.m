@@ -91,11 +91,7 @@ static NSCache *__ASPGLTextureCache;
 	
 	return texture;
 }
-+ (void) clearTextureCache{
-	if (__ASPGLTextureCache){
-		[__ASPGLTextureCache removeAllObjects];
-	}
-}
+
 #pragma mark - Init
 - (id)initWithFile:(NSString *)fileName effect:(GLKBaseEffect *)effect position:(GLKVector2)position bounds:(CGSize)size respectAspectRatio:(BOOL)respectAR{
     if ((self = [super init])) { 
@@ -127,6 +123,7 @@ static NSCache *__ASPGLTextureCache;
 		newQuad.tl.textureVertex = CGPointMake(0, 1);
 		newQuad.tr.textureVertex = CGPointMake(1, 1);
 		//Рожаем позицию. Счет ведем от самой нижней точки обьекта
+		// А я вообще трололо коментарий!
 		self.position=GLKVector2Make(position.x, position.y);
 		self.quad = newQuad;
 		self.hidden=NO;
